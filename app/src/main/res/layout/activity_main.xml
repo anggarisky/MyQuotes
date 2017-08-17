@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:padding="50dp"
+    android:id="@+id/bgmaster"
+    tools:context="com.pandame.anggarisky.myquotes.MainActivity">
+
+    <TextView
+        android:textColor="#fff"
+        android:layout_marginTop="50dp"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MyQuotes"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:text="Life's too short if you are giving up easily. "
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_generate"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Generate New Quote" />
+
+</RelativeLayout>
